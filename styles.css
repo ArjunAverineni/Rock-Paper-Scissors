@@ -1,0 +1,84 @@
+body {
+    background: linear-gradient(135deg, #1e90ff 0%, #ffb347 100%);
+    color: #222;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 700px;
+    margin: 60px auto;
+    background: rgba(255,255,255,0.95);
+    border-radius: 50px;
+    box-shadow: 0 8px 32px rgba(30,144,255,0.2);
+    padding: 40px 30px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+    color: #3359ff;
+    margin-top: 5px;
+}
+
+p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #ffb347;
+}
+
+button {
+    background-color: #1e90ff;
+    color: white;
+    border: black 2px solid;
+    padding: 10px 10px;
+    border-radius: 200px;
+    cursor: pointer;
+    font-size: 16px;
+    height: 125px;
+    width: 125px;
+    margin: 20px;
+    font-size: 75px;
+    text-align: center;
+    justify-content: center;
+}
+
+button:hover {
+    background-color: #217bd4;
+}
+
+.scoreDisplay{
+    font-size: 1.2rem;
+    margin-bottom: -2px;
+}
+
+.bluetext, #playerScoreDisplay {
+    color: #1e90ff;
+}
+
+.orangetext, #computerScoreDisplay {
+    color: #ffb347;
+}
+
+.computerChoice {
+    font-size: 1.5rem;
+    color: #ffb347;
+}
+
+.playerChoice{
+    font-size: 1.5rem;
+    color: #1e90ff;
+}
+
+#resultDisplay {
+    font-size: 3.5rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+#playerScore, #computerScore {
+    font-size: 1.5rem;
+}
